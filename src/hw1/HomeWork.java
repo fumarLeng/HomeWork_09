@@ -75,6 +75,7 @@ public class HomeWork {
 //		System.out.println(5+"5");
 //		  "5"等於字串 整數加字串會轉成字串 所以是55
 		System.out.println("master");
+		System.out.println("===testtest====");
 		System.out.println("=======");
 	}
 
