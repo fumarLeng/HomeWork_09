@@ -33,12 +33,12 @@ public class HomeWork {
 	public static void area() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("請輸入第一個數字");
-		System.out.println("請輸入第二個數字");
-		System.out.println("請輸入第三個數字");
-
 		int a = sc.nextInt();
+		System.out.println("請輸入第二個數字");
 		int b = sc.nextInt();
+		System.out.println("請輸入第三個數字");
 		int c = sc.nextInt();
+
 		if (a + b > c || a + c > b || b + c > a) {
 			if (a == b && a == c && b == c) {
 				System.out.println("正三角形");
