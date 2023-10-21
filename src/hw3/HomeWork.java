@@ -59,23 +59,33 @@ public class HomeWork {
 
 	public static void Numbers() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("開始猜數字 1~9");
+		System.out.println("開始猜數字 1~100");
+		int a = (int) (Math.random() * 100);
+
 		while (true) {
-			int a = (int) (Math.random() * 10);
 			int i = sc.nextInt();
-			if (i != a) {
-				System.out.println("猜錯囉");
+			if(i<0 || i>100) {
+				System.out.println("請輸入1~100的數字");
 				continue;
+			}
+
+			if (i < a) {
+				System.out.println("再大一點");
+		
+			} else if (i > a) {
+				System.out.println("在小一點");
+
 			} else {
 				System.out.println("答對了,答案就是" + a);
+				break;
 			}
-			break;
+
 		}
 	}
 
 	public static void OneToNine() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("請輸入1~9的數字");
+		System.out.println("請輸入不想要的數字(1~9)");
 		int a = sc.nextInt();
 		int i = 1;
 		int count = 0;
