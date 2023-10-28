@@ -64,14 +64,14 @@ public class HomeWork {
 
 		while (true) {
 			int i = sc.nextInt();
-			if(i<0 || i>100) {
+			if (i < 0 || i > 100) {
 				System.out.println("請輸入1~100的數字");
 				continue;
 			}
 
 			if (i < a) {
 				System.out.println("再大一點");
-		
+
 			} else if (i > a) {
 				System.out.println("在小一點");
 
