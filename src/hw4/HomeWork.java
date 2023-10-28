@@ -147,7 +147,7 @@ public class HomeWork {
 		// 輸出每位同學的最高分次數
 		for (int student = 0; student < maxScoresCount.length; student++) {
 			System.out.println("學生 " + (student + 1) + " 的最高分次數: " + maxScoresCount[student]);
-		}
+		  }
 
 	}
 }
