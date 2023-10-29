@@ -3,15 +3,17 @@ package hw5;
 public class RandNumber {
 
 	public static void main(String[] args) {
-		String str = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		int x = (int)(Math.random()*str.length()+1);
-		System.out.println(str.toString());
-		System.out.println(x);
-		
-	}
+        String str = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
+        int codeLength = 8; 
+        StringBuffer authCode = new StringBuffer();
 
-	public void getAuthCode() {
-		
-		
-	}
+        for (int i = 0; i < codeLength; i++) {
+            int charBox = (int) (Math.random()*str.length());
+            char randomChar = str.charAt(charBox);
+            authCode.append(randomChar);
+        }
+
+        String code = authCode.toString();
+        System.out.println("驗證碼為: " + code);
+    }
 }
