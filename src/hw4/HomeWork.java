@@ -120,11 +120,11 @@ public class HomeWork {
 		// scores.length; //考試六次
 		// scores[0].length //學生八位
 
-		int[] maxScoresCount = new int[scores.length]; // 用於儲存每位同學的最高分次數
+		int[] maxScoresCount = new int[scores.length]; // 每位同學的最高分次數
 
 		for (int student = 0; student < scores.length; student++) {
 			int[] studentScores = scores[student];
-			int count = 0; // 初始化次數為 0
+			int count = 0; 
 			for (int exam = 0; exam < studentScores.length; exam++) {
 				int studentScore = studentScores[exam];
 				boolean isHighest = true; // 假設此次考試成績是最高的
