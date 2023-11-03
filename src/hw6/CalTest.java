@@ -22,5 +22,7 @@ public class CalTest {
 		} catch (Exception e) {
 			System.out.println("異常" + e.getMessage());
 		}
+		
+		
 	}
 }
