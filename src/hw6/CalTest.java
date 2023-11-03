@@ -1,6 +1,7 @@
 package hw6;
 
 import java.util.Scanner;
+
 public class CalTest {
 
 	public static void main(String[] args) {
@@ -18,9 +19,8 @@ public class CalTest {
 
 		} catch (CalException e) {
 			System.out.println("錯誤" + e.getMessage());
-		}catch (Exception e) {
-			System.out.println("異常" + e.getMessage()
-			);
+		} catch (Exception e) {
+			System.out.println("異常" + e.getMessage());
 		}
 	}
 }
