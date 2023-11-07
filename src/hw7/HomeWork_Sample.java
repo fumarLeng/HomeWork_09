@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class HomeWork {
+public class HomeWork_Sample {
 
 	public static void main(String[] args) throws IOException {
 		FileWriter fw = new FileWriter("C:/javawork/Sample.txt");
