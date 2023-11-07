@@ -3,7 +3,7 @@ package hw6;
 import java.util.Scanner;
 
 public class CalTest {
- 
+
 	public static void main(String[] args) {
 		try {
 			Scanner sc = new Scanner(System.in);
