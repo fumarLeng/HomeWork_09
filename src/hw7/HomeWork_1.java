@@ -38,8 +38,6 @@ public class HomeWork_1 {
 			cCount = cCount + line.length();
 			lCount++;
 		}
-		read.close();
-		fw.close();
 		System.out.println("檔案大小為:" + fi.length() + "\n字元數為" + cCount + "\n行數為" + lCount);
 	}
 
