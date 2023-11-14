@@ -1,6 +1,8 @@
 package hw7;
 
-public class Dog {
+import java.io.Serializable;
+
+public class Dog extends Animal implements Serializable {
 	private String name;
 	
 	public Dog(String name) {

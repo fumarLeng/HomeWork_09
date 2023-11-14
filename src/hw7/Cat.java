@@ -1,7 +1,8 @@
 package hw7;
 
+import java.io.Serializable;
 
-public class Cat  {
+public class Cat extends Animal implements Serializable {
 	private String name;
 	
 	public Cat(String name) {
